@@ -1,6 +1,5 @@
+const appId = "";
 (async () => {
-  const appId = "";
-
   const latestLocalization = await getAppStoreVersionLocalizations(0);
   const previousLocalization = await getAppStoreVersionLocalizations(1);
   const latestLocalization2 = { ...latestLocalization };
